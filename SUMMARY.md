@@ -9,5 +9,5 @@
    * [第3章-对于所有对象都通用的方法](EffectiveJava/第3章-对于所有对象都通用的方法.md)
    * [第4章-类和接口](EffectiveJava/第4章-类和接口.md)
 
-* [图解Http](tjhttp/README.md)
-   * [第1章-了解Web及网络基础](tjhttp/第1章-了解Web及网络基础.md)
+* [图解Http](图解Http/README.md)
+   * [第1章-了解Web及网络基础](图解Http/第1章-了解Web及网络基础.md)
