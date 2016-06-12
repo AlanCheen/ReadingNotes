@@ -1,15 +1,19 @@
-# My Awesome Book
+# ReadingNotes
 
 [![Join the chat at https://gitter.im/AlanCheen/ReadingNotes](https://badges.gitter.im/AlanCheen/ReadingNotes.svg)](https://gitter.im/AlanCheen/ReadingNotes?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
 
-asdfa  
-dsf  
-a  
-sd  
-f  
-ad    
-f  
-s  
 
+> 书籍是人类进步的阶梯  
+
+
+记录自己所阅读过的书籍的读书笔记,并配有备注,扩展内容   
+
+站在自己的立场上给出合理公正的评价  
+
+
+
+|        书名     | 状态     	    |推荐指数       |	        评价  |	最后更新时间  |
+| :--------------:|:-------------:|:-------------:|:-------------:| :-------------:|  
+| [EffectiveJava](./EffectiveJava)  |  阅读第21条|  9  |Java进阶必备| 2016年6月12日|  
+| [Android开发艺术探索](./AndroidArt)  |  阅读ing|  9  |Android中高级进阶必备|2016年4月1日|  
