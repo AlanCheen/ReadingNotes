@@ -4,7 +4,7 @@
     ],
     "pluginsConfig": {
         "disqus": {
-            "shortName": "ReadingNotes"
+            "shortName": "readingnotes"
         }
     }
 }
