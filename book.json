@@ -1,10 +1,14 @@
 {
     "plugins": [
-        "disqus"
+        "disqus",
+        "github"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "readingnotes"
-        }
+        },
+        "github": {
+        "url": "https://github.com/AlanCheen/ReadingNotes"
+    	}
     }
 }
