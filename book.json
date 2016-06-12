@@ -14,7 +14,8 @@
         "disqus",
         "github",
         "tbfed-pagefooter",
-        "splitter"
+        "splitter",
+        "toggle-chapters"
     ],
 
     "pluginsConfig": {
