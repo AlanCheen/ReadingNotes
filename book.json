@@ -1,8 +1,21 @@
 {
+   
+   "title" : "ReadingNotes",
+    "description" : "读书笔记,读书心得,书籍评价",
+    "author" : "zhangjikai",
+    "language" : "zh-hans",
+	"links" : {
+        "sidebar" : {
+            "Home" : "https://github.com/AlanCheen/ReadingNotes"
+        }
+    },
+
     "plugins": [
         "disqus",
-        "github"
+        "github",
+        "tbfed-pagefooter"
     ],
+
     "pluginsConfig": {
         "disqus": {
             "shortName": "readingnotes"
@@ -10,5 +23,11 @@
         "github": {
         "url": "https://github.com/AlanCheen/ReadingNotes"
     	}
+
+    	"tbfed-pagefooter": {
+            "copyright":"Copyright &copy yifeiyuan.me 2016",
+            "modify_label": "文件最后修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
     }
 }
