@@ -13,7 +13,8 @@
     "plugins": [
         "disqus",
         "github",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "splitter"
     ],
 
     "pluginsConfig": {
