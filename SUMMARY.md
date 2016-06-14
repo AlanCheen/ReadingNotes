@@ -9,5 +9,9 @@
    * [第3章-对于所有对象都通用的方法](EffectiveJava/第3章-对于所有对象都通用的方法.md)
    * [第4章-类和接口](EffectiveJava/第4章-类和接口.md)
 
+* [CoreJava](CoreJava/README.md)
+   * [第12章-泛型程序设计](CoreJava/Chap12-泛型程序设计.md)
+
+
 * [图解Http](图解Http/README.md)
    * [第1章-了解Web及网络基础](图解Http/第1章-了解Web及网络基础.md)
