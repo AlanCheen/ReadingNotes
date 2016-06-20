@@ -12,6 +12,7 @@
 * [CoreJava](CoreJava/README.md)
    * [第12章-泛型程序设计](CoreJava/Chap12-泛型程序设计.md)
 
-
+* [APP研发录](APP研发录/README.md)
+ 
 * [图解Http](图解Http/README.md)
    * [第1章-了解Web及网络基础](图解Http/第1章-了解Web及网络基础.md)
