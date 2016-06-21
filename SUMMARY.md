@@ -10,10 +10,10 @@
    * [第4章-类和接口](EffectiveJava/第4章-类和接口.md)
 	
 * [CoreJava](CoreJava/README.md)
-   * [第12章-泛型程序设计](CoreJava/Chap12-泛型程序设计.md)  
+   * [第12章-泛型程序设计](CoreJava/Chap12-泛型程序设计.md)
 
 * [APP研发录](APP研发录/README.md)
-* * [读书笔记](APP研发录/notes.md)	 
+    * [读书笔记](APP研发录/notes.md)
  
 * [图解Http](图解Http/README.md)
    * [第1章-了解Web及网络基础（Reading）](图解Http/第1章-了解Web及网络基础.md)
