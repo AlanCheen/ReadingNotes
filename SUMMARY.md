@@ -11,7 +11,7 @@
    * [第12章-泛型程序设计](CoreJava/Chap12-泛型程序设计.md)
 * [图解Http](图解Http/README.md)
    * [第1章-了解Web及网络基础（Reading）](图解Http/第1章-了解Web及网络基础.md)
-* [APP研发录](App研发录/README.md)
+* [App研发录](App研发录/README.md)
     * [高效App框架设计与重构](App研发录/高效App框架设计与重构.md)
     * [App开发中的高级技巧](App研发录/App开发中的高级技巧.md)
     * [App竞品技术分析](App研发录/App竞品技术分析.md)

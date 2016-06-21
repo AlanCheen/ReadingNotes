@@ -1,9 +1,7 @@
 ## App竞品技术分析
 
 
-利用 **A
-
-
+利用 **A可以还原被压缩过后的xml (这个对反编译有帮助,暂时还没有尝试)    
 
 ```
 java -jar AXMLPrinter2.jar AndroidManifest.xml
