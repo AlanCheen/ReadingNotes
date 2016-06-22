@@ -9,20 +9,20 @@
 ### 正常状态
 
 1. onCreate   表示Activity正在创建,可以做一些初始化操作
-2. onRestart  正在重新启动,onstop后回来会调用 
+2. onRestart  正在重新启动,onstop后回来会调用
 3. onStart    正在被启动,后台,不可交互
-4. onResume   **可见可交互前台**,非常重要,许许多多的重要的类在这里初始化 
+4. onResume   **可见可交互前台**,非常重要,许许多多的重要的类在这里初始化
 4. onPause    正在停止 **后台(不一定不可见)** 不可做太耗时的操作,**因为onPause之后新启动Activity的onResume才能被调用**
 5. onStop    即将停止,**不可见** 可以做一些稍微重量级  的回收
 6. onDestroy 即将销毁,可以做一些回收资源,关闭线程,移除Handler消息等操作
-  
+
 
 生命周期配对去记忆效果更佳:  
 create -- destroy
 start -- stop	 
 resume -- pause  
-	 
-	 
+
+
 注意点:  
 
 A 启动 B
@@ -34,17 +34,17 @@ A 启动 B
 Activity的销毁与重建涉及到这两方法:  
 1. `onSaveInstanceState(@Nullable Bundle state)`    系统会调用它来保存状态,以便之后恢复  
 2. `onRestoreInstanceState(@NonNull Bundle state)`  为系统恢复所用
- 
 
-**当Activity将处于可能被销毁或要被销毁的状态,就会调用`onSaveInstanceState`** 
+
+**当Activity将处于可能被销毁或要被销毁的状态,就会调用`onSaveInstanceState`**
 而**`onRestoreInstanceState`则是重建的时候被调用**  
- 
- 
+
+
 #### 调用时机
- 
+
 `onSaveInstanceState` 在`onStop`之前调用,而不一定在`onPause`之后  
 `onRestoreInstanceState` 在`onStart`之后,`onResume`之前
- 
+
 所以,大致的完整的生命周期是这样的:  
 onCreate  
 onRestart  
@@ -55,8 +55,8 @@ onPause
 onSaveInstanceState  
 onStop  
 onDestroy  
- 
- 
+
+
 PS:`onSaveInstanceState`如下情况会调用:  
 1. 启动了新的Activity  
 2. 按了Home键等等    
@@ -101,7 +101,7 @@ so,一般给Activity配上这个就行了:
 
 因为**Activity启动需要任务栈**,而用**Standard模式去启动Activity,默认会进入启动它的Activity所属的任务栈中,而非Activity类型的Context并没有所谓的任务栈**.  
 
-ABC--启动C->ABC
+AB--启动C->ABC
 
 ### SingleTop  
 
@@ -130,7 +130,7 @@ ABC--启动C--> ABC
 #### Activity的Flags
 
 常用的Flags:  
-1. FLAG_ACTIVITY_NEW_TASK  指定启动模式为`singleTask` 
+1. FLAG_ACTIVITY_NEW_TASK  指定启动模式为`singleTask`
 2. FLAG_ACTIVITY_SINGLE_TOP    指定`singleTop`启动模式
 3. FLAG_ACTIVITY_CLEAR_TOP  将在它之上的所有Activity移出栈,这个模式一般需要和`FLAG_ACTIVITY_NEW_TASK`一起出现  
 4. FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS  具有这个标记的Activity不会出现在历史Activity列表中,相当于`android:exludeFromRecents="true"`  
@@ -157,7 +157,7 @@ TaskAffinity(任务相关性),**标识了一个Activity的任务栈名称**,*默
 
 显示调用非常简单,明确指定被启动对象的组件信息即可.  
 
-而隐式调用需要配合`IntentFilter`去匹配,**一个Activity可以有多个IntentFilter**,匹配到了其中一个就能启动,否则启动失败,`IntentFilter`的过滤信息有*action,category,data*    
+而隐式调用需要配合`IntentFilter`去匹配,**一个Activity可以有多个IntentFilter**,匹配到了**其中一个**就能启动,否则启动失败,`IntentFilter`的过滤信息有*action,category,data*    
 
 当一个Intent同时匹配`IntentFilter`的action,category,data,才能启动一个Activity  
 
@@ -179,7 +179,3 @@ category跟action一样,也是个字符串,系统也自带了一些,我们也可
 
 
 ### data的匹配规则
-
-
-
-
