@@ -51,6 +51,11 @@ ListView使用viewholder模式,Bitmap在12章有讲,这里不重复.
 4. 代码要有层次性,可扩展  
 
 
-
+## 其他的资料推荐  
+[10-ways-to-improve-your-android-app](http://www.slideshare.net/seamaster29/10-ways-to-improve-your-android-app)  
+[Android性能优化典范 - 第4季](http://hukai.me/android-performance-patterns-season-4/)   
+[Android性能优化典范 - 第3季](http://hukai.me/android-performance-patterns-season-3/)  
+[Android性能优化典范 - 第2季](http://hukai.me/android-performance-patterns-season-2/)  
+[Android性能优化典范 - 第1季](http://hukai.me/android-performance-patterns/)   
 
 
