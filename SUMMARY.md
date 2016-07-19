@@ -17,6 +17,6 @@
     * [App开发中的高级技巧](App研发录/App开发中的高级技巧.md)
     * [App竞品技术分析](App研发录/App竞品技术分析.md)
     * [项目管理和团队建设](App研发录/项目管理和团队建设.md)
-* HeadFirstDesignPatterns
-    * [设计原则](HeadFirstDesignPatterns/README.md)
+* [HeadFirstDesignPatterns]((HeadFirstDesignPatterns/README.md))
+    * [设计原则](HeadFirstDesignPatterns/DesignPrinciple.md)
     * [单例模式](HeadFirstDesignPatterns/Singleton.md)
