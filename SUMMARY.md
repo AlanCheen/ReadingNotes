@@ -20,12 +20,3 @@
 * HeadFirstDesignPatterns
     * [设计原则](HeadFirstDesignPatterns/)
     * [单例模式](HeadFirstDesignPatterns/Singleton.md)
-    * []()
-    * []()
-    * []()
-    * []()
-    * []()
-    * []()
-    * []()
-    * []()
-    * []()
