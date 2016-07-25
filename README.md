@@ -18,4 +18,4 @@
 | [Android开发艺术探索](./AndroidArt)  |  阅读ing|  9  |Android中高级进阶必备|至少1年半的经验|2016年6月20日|  
 | [App研发录](./App研发录)  |  完 |  5  |稍微可以涨点见识||2016年6月20日|  
 | [Android群英传](./AndroidHero)  |  阅读完毕正在写笔记|  7  |主要内容在第6章自定义View|初中级,想学自定义View的同学|2016年6月17日|  
-|[HeadFirstDesignPatterns](./HeadFirstDesignPatterns)|阅读ing|8|设计模式入门必备|1年Java经验/想学设计模式的同学|2016年7月19日|
+|[HeadFirstDesignPatterns](./HeadFirstDesignPatterns)|阅读ing|8|设计模式入门必备|1年Java经验/想学设计模式的同学|2016年7月25日|
