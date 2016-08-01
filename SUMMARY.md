@@ -33,3 +33,4 @@
     * [状态模式](HeadFirstDesignPatterns/State.md)
     * [代理模式](HeadFirstDesignPatterns/Proxy.md)
     * [复合模式](HeadFirstDesignPatterns/Compound.md)
+    * [桥接模式](HeadFirstDesignPatterns/Bridge.md)
