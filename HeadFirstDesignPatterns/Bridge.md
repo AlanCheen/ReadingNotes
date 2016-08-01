@@ -4,7 +4,7 @@
 
 使用桥接模式不只改变你的实现，也改变你的抽象。
 
-
+![](http://ww4.sinaimg.cn/large/98900c07jw1f6ef0jrt68j20rs0dwq4l.jpg)
 
 优点：
 
