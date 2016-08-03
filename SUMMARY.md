@@ -34,3 +34,12 @@
     * [代理模式](HeadFirstDesignPatterns/Proxy.md)
     * [复合模式](HeadFirstDesignPatterns/Compound.md)
     * [桥接模式](HeadFirstDesignPatterns/Bridge.md)
+    * [生成器模式](HeadFirstDesignPatterns/Bridge.md)
+    * [责任链模式](HeadFirstDesignPatterns/Chain-of-Responsibility.md)
+    * [蝇量模式](HeadFirstDesignPatterns/Flyweight.md)
+    * [解释器模式](HeadFirstDesignPatterns/Interpreter.md)
+    * [中介者模式](HeadFirstDesignPatterns/Mediator.md)
+    * [备忘录模式](HeadFirstDesignPatterns/Memento.md)
+    * [原型模式](HeadFirstDesignPatterns/Prototype.md)
+    * [访问者模式](HeadFirstDesignPatterns/Visitor.md)
+ 
