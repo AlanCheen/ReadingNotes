@@ -42,8 +42,8 @@ Core Java
 
 ## 你可能还会喜欢
 
-[Android-Resources(优秀的资源整理)](https://github.com/AlanCheen/Android-Resources)
-[RTFSC(Android源码阅读)](https://github.com/RTFSC-Android/RTFSC)
+[Android-Resources(优秀的资源整理)](https://github.com/AlanCheen/Android-Resources)  
+[RTFSC(Android源码阅读与分析)](https://github.com/RTFSC-Android/RTFSC)  
 
 
 
