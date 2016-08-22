@@ -179,3 +179,29 @@ category跟action一样,也是个字符串,系统也自带了一些,我们也可
 
 
 ### data的匹配规则
+
+#### data的组成
+
+data由两部分组成,`mineType`和`URI`  
+
+mineType指媒体类型,如`image/jpeg`和`video/*`  
+
+URI比较复杂,它的格式:   
+`<scheme>://<host>:<port>/[<path>||<pathPrefix>|<pathPattern>]`  
+
+看例子就简单了,比如:`http://yifeiyuan.me:80/about`
+
+- Scheme: **必须** URI的模式,比如http,ftp,如果URI中没有指定scheme,那么整个URI的其他参数无效  
+- Host: **必须** URI的主机名,如果Host没有指定,那么URI无效
+- Port: URI中的端口号,**非必须**,仅当URI中指定了scheme和host参数的时候port参数才有意义的.  
+- path 表示完整的路径,pathPrefix表示路径前缀,pathPattern表示完整的路径,但是它可以包含通配符
+
+#### 匹配
+
+data也是完全匹配,可以在xml里给Activity配置:`<data android:mineType="image/*">``  
+
+启动Activity的时候可以通过`intent.setDataAndType()`设置
+
+
+    小Tip:隐式启动可能会遇到匹配不到Activity而导致Crash的情况,可以使用`PackageManager`或者`Intent`的`resolveActivity`的方法先判断是否有匹配到的Activity,防止Crash
+
