@@ -34,6 +34,8 @@ synchronized 基础：Java 中的每一个对象都可以作为锁。
 代码块同步是通过 monitorenter 和 monitorexit 指令来实现。
 方法，没说。
 
+补充：synchronized 修饰方法，其常量池中多了**ACC_SYNCHRONIZED标示符**。JVM就是根据该标示符来实现方法的同步的：**当方法调用时，调用指令将会检查方法的 ACC_SYNCHRONIZED 访问标志是否被设置，如果设置了，执行线程将先获取monitor，获取成功之后才能执行方法体，方法执行完后再释放monitor**。
+
 
 锁的信息放在 Java 对象头里。
 
@@ -43,7 +45,7 @@ synchronized 基础：Java 中的每一个对象都可以作为锁。
 
 ## 原子操作原理
 
-原子操作 atomic operation ：不可中断的一个或一系列的操作。
+原子操作 atomic operation ：**不可中断的一个或一系列的操作**。
 
 CAS：比较并交换，Compare and Swap，CAS 操作需要两个数组，一个旧值和一个新值，在操作期间，先比较旧值有没有发生变化，如果没有发生变化，才交换成新值，发生了变化则不交换。
 
