@@ -27,23 +27,20 @@
 | [App研发录](./App研发录)  |  完 |  4  |稍微可以涨点见识||2016年6月20日|  
 | [Android群英传](./AndroidHero)  |  阅读完毕|  7.5  |主要内容在第6章自定义View|初中级,想学自定义View的同学|2016年6月17日|  
 |[HeadFirstDesignPatterns](./HeadFirstDesignPatterns)|完|7.5|设计模式入门必备|1年Java经验/想学设计模式的同学|2016年8月3日|
+|深入理解Java虚拟机||||
+|[Java并发编程的艺术](./TheArtOfJavaConcurrencyProgramming)||||
+|图解Http||||
+|深入理解Android||||
+|CleanCode||||
 
 
-其他已经拥有或者看过的书籍(部分):  
+欢迎推荐优秀书籍！
 
-CleanCode  
-Android源码设计模式  
-深入理解虚拟机    
-图解Http  
-Core Java  
-
-欢迎推荐
-。。。
 
 ## 你可能还会喜欢
 
-[Android-Resources(优秀的资源整理)](https://github.com/AlanCheen/Android-Resources)  
 [RTFSC(Android源码阅读与分析)](https://github.com/RTFSC-Android/RTFSC)  
+[Android-Resources(优秀的资源整理)](https://github.com/AlanCheen/Android-Resources)    
 
 
 
