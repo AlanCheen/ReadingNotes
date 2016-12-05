@@ -8,7 +8,7 @@
 
 
 
-![chap9](/Users/yifeiyuan/mygithub/ReadingNotes/图解Http/extras/chap9.png)
+![chap9](extras/chap9.png)
 
 
 
