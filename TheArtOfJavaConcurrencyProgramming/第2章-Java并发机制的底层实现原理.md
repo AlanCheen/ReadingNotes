@@ -1,11 +1,12 @@
 # 第2章-Java并发机制的底层实现原理
 
-Java 代码在编译后会变成 Java 字节码，字节码被类加载器加载到 JVM 里，JVM 执行字节码，最终需要装化为汇编指令在 CPU 上执行，Java 中所使用的并发机制依赖于 JVM 的实现和 CPU 指令。
+Java 代码在编译后会变成 Java 字节码，字节码被类加载器加载到 JVM 里，JVM 执行字节码，最终需要转化为汇编指令在 CPU 上执行，Java 中所使用的并发机制依赖于 JVM 的实现和 CPU 指令。
 
 
 ## volatile
 
-volatile是**轻量级**的 synchronized ；恰当使用下，它比synchronized成本更低，因为**它不会引起线程上下文切换和调度**。
+volatile是**轻量级**的 synchronized ；  
+恰当使用下，它比synchronized成本更低，因为**它不会引起线程上下文切换和调度**。
 
 volatile 在多处理器开发中 **保证了共享变量的『可见性』，这能保证共享变量能被准确和一致的更新。** 
 
