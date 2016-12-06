@@ -8,7 +8,7 @@
 
 
 
-![chap9](/Users/yifeiyuan/mygithub/ReadingNotes/图解Http/extras/chap9.png)
+![chap9](extras/chap9.png)
 
 
 
@@ -126,4 +126,4 @@ HTTP/2.0的目标是改善用户在使用 Web 时的速度体验。
 
 WebDAV(Web-based Distributed Authoring and Versioning,基于万维网的分布式创作和版本控制)是一个可对 Web服务器上的内容直接进行文件复制、编辑等操作的分布式文件系统。（HTTP/1.1的扩展）
 
-balabala 还有些内容，没记。
+balabala 还有些 WebDAV 的内容，没记。
