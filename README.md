@@ -23,24 +23,23 @@
 |        书名     | 状态     	    |评分(满分10分)     | 评价  |适合人群|	最后更新时间  |
 | :--------------:|:-------------:|:-------------:|:-------------:| :-------------:|:-------------:|
 | [EffectiveJava](./EffectiveJava)  |  阅读第5章|  9  |Java进阶必备|至少有2年半的Java经验的人| 2016年6月20日|  
-| [Android开发艺术探索](./AndroidArt)  |  反复阅读中|  9  |Android中高级进阶必备|至少1年半的经验|2016年6月20日|  
+| [Android开发艺术探索](./AndroidArt)  |  反复阅读中|  8.5  |Android中高级进阶必备|至少1年半的经验|2016年6月20日|  
 | [App研发录](./App研发录)  |  完 |  3  |标题党！差评！稍微可以涨点见识|不推荐|2016年6月20日|  
 | [Android群英传](./AndroidHero)  |  阅读完毕|  7.5  |主要内容在第6章自定义View|初中级,想学自定义View的同学|2016年6月17日|  
-|[HeadFirstDesignPatterns](./HeadFirstDesignPatterns)|完|7.5|设计模式入门必备|1年Java经验/想学设计模式的同学|2016年8月3日|
+|[HeadFirstDesignPatterns](./HeadFirstDesignPatterns)|完|8|设计模式入门必备|1年Java经验/想学设计模式的同学|2016年8月3日|
 |深入理解Java虚拟机||||
 |[Java并发编程的艺术](./TheArtOfJavaConcurrencyProgramming)||||
-|[图解Http](./图解Http)||||
+|[图解Http](./图解Http)|阅读完毕，在做笔记|8.5|用图片把抽象的知识生动化，非常棒，推荐！|新老手皆宜|2016年12月08日|
 |深入理解Android||||
 |CleanCode||||
 
 
 欢迎推荐优秀书籍！
 
-todo
 
 [数据结构与算法分析](https://book.douban.com/subject/3351237/)
 
-## 你可能还会喜欢
+## 我的其他开源项目
 
 [RTFSC(Android源码阅读与分析)](https://github.com/RTFSC-Android/RTFSC)  
 [Android-Resources(优秀的资源整理)](https://github.com/AlanCheen/Android-Resources)    
