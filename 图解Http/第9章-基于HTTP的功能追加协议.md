@@ -6,8 +6,7 @@
 
 所以出现了一些基于 HTTP 的协议。
 
-![chap9](extras/chap9.png)
-
+<img src="http://ww4.sinaimg.cn/large/98900c07gw1fajff7fmrnj21kw1daamj.jpg"/>
 
 ## 消除 HTTP 瓶颈的 SPDY
 
