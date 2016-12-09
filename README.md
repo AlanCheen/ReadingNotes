@@ -29,7 +29,7 @@
 |[HeadFirstDesignPatterns](./HeadFirstDesignPatterns)|完|8|设计模式入门必备|1年Java经验/想学设计模式的同学|2016年8月3日|
 |深入理解Java虚拟机||||
 |[Java并发编程的艺术](./TheArtOfJavaConcurrencyProgramming)||||
-|[图解Http](./图解Http)|阅读完毕，在做笔记|8.5|用图片把抽象的知识生动化，非常棒，推荐！|新老手皆宜|2016年12月08日|
+|[图解Http](./图解Http)|阅读完毕，在做笔记|8.5|用图片把抽象的知识生动化，非常棒，对初学者非常友好，推荐！|新老手皆宜|2016年12月08日|
 |深入理解Android||||
 |CleanCode||||
 

@@ -1,6 +1,9 @@
 # 第1章 了解Web及网络基础
 
-讲了TCP/IP协议族,分层,如何传输,TCP三次握手,URI&URL等 
+讲了TCP/IP协议族,分层,如何传输,TCP三次握手,URI&URL等网络基础。 
+
+<img src="http://ww4.sinaimg.cn/large/98900c07gw1fakjco3lq4j21kw10kn5z.jpg"/>  
+
 
 ## TCP/IP 分层管理
 
@@ -86,13 +89,40 @@ TCP的可靠性是因为它采用了**三次握手策略(three-way handshaking)*
 
 ## 负责域名解析的 DNS 服务
 
+DNS 服务是和 HTTP 协议一样位于应用层的协议。**它提供域名到 IP 地址之间的解析服务**
 
-协议名称|所属层|作用
-：----：|：----：|：---：
-HTTP|应用层|
+协议名称|所属层
+：----：|：----：
+HTTP|应用层
+DNS|应用层
 IP|网络层
 TCP|传输层
-DNS|应用层
+
+## URI和 URL
+
+URI 统一资源标识符，URL 统一资源定位符。
+
+URI**就是某个协议方案表示的资源定位的标识符**，协议方案是指访问资源所使用的协议类型名称。
+
+比如采用 HTTP 协议时，协议方案就是 http。
+
+URI 协议方案有30种左右：
+
+- ftp  
+- http  
+- ldap  
+- mailto  
+- tel    
+- ...
+
+URI格式如下：
+
+<img src="http://ww2.sinaimg.cn/large/98900c07gw1fakk1vj1nbj20aa02e74b.jpg"/>
+
+
+
+
+
 
 
 
