@@ -2,6 +2,9 @@
 
 HTTP状态码负责表示客户端 HTTP 请求的返回结果，标记服务端的处理是否正常、通知出现的错误等工作。
 
+<img src="http://ww3.sinaimg.cn/large/98900c07gw1fazqd2hvedj216209e0vr.jpg"/>
+
+
 状态码以**3为数字和原因短语组成**，如 `200 OK`。
 
 状态码的类别：  
