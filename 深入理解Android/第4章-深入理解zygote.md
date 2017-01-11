@@ -54,6 +54,59 @@ App_main的 main 方法里调用了 `AppRuntime.start` (AppRuntime.cpp)。
 
 
 
+## ZygoteInit main流程分析
+
+
+
+1. 注册 zygote 用的 socket (zygote 的 IPC 方式是UDS Unix Domain Socket)
+2. 预加载类和资源(比如系统自带的类和资源)
+3. 启动 system_server 进程(Java 世界系统 Service 的驻留进程，是 framework 的核心进程，如果它死了，会导致 zygote 自杀)
+4. runSelectLoop
+5. methodAndArgsCaller.run (实际上是 SystemServer.run )
+
+
+
+### 启动 system_server 进程
+
+system_server进程是Java 世界系统 Service 的驻留进程，是 framework 的核心进程，如果它死了，会导致 zygote 自杀。
+
+system_server的启动
+
+1. 从zygote进程 fork 一个子进程(Zygote.forkSystemServer)，
+2. handleSystemServerProcess  （system_server 进程的工作）
+
+ PS：pid==0 则为子进程
+
+
+
+### runSelectLoop
+
+zygote  在这里处理客户端的请求，客户用 ZygoteConnection 对象来表示
+
+ZygoteConnection.runOnce来处理请求
+
+
+
+
+
+## SystemServer 分析
+
+system_server 进程为 zygote 第一个 fork 的进程。
+
+
+
+
+
+
+
+<img src="http://ww2.sinaimg.cn/large/98900c07gw1fbljpte5t2j20eu0743zd.jpg"/>
+
+
+
+
+
+
+
 
 
 ## 小结
