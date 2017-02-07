@@ -68,7 +68,7 @@ App_main的 main 方法里调用了 `AppRuntime.start` (AppRuntime.cpp)。
 
 ### 启动 system_server 进程
 
-system_server进程是Java 世界系统 Service 的驻留进程，是 framework 的核心进程，如果它死了，会导致 zygote 自杀。
+system_server进程是 Java世界系统 Service 的驻留进程，是 framework 的核心进程，如果它死了，会导致 zygote 自杀。
 
 system_server的启动
 

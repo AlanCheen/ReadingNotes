@@ -19,17 +19,22 @@ Android性能优化主要包括布局优化、绘制优化、内存泄露优化�
 2. 不要做耗时的任务
 
 ## 内存泄露优化
+
 其实内存泄露有很多种情况,但是书中列举的比较少
+
 1. 静态变量导致的内存泄露(比如静态的context,静态的view)
 2. 单例模式持有Activity
 3. 属性动画(repeatCount为无限模式)
 
 ## ListView和Bitmap优化
+
 ListView使用viewholder模式,Bitmap在12章有讲,这里不重复.
 
 
 ## 线程优化
+
 主要是采用线程池(11章有讲)  
+
 1. 避免存在大量的Thread
 2. 重用Thread,避免线程创建和销毁所带来的开销
 3. 线程池还能控制最大并发数,避免大量线程因互相抢占系统资源从而导致阻塞  
@@ -38,7 +43,7 @@ ListView使用viewholder模式,Bitmap在12章有讲,这里不重复.
 
 1. 避免创建过多的对象
 2. 不要过多使用枚举(枚举占用的内存空间要比整型的大)
-3. 常亮使用 `static final`来修饰
+3. 常量使用 `static final`来修饰
 4. 使用一些Android特有的数据结构,比如`SparseArray`和`Pair`等,它们都具有更好的性能(注:减少了自动装箱和拆箱的消耗)
 5. 适当使用软引用和弱引用
 6. 尽量采用静态内部类(不会持有外部类的实例)
@@ -52,6 +57,7 @@ ListView使用viewholder模式,Bitmap在12章有讲,这里不重复.
 
 
 ## 其他的资料推荐  
+
 [10-ways-to-improve-your-android-app](http://www.slideshare.net/seamaster29/10-ways-to-improve-your-android-app)  
 [Android性能优化典范 - 第4季](http://hukai.me/android-performance-patterns-season-4/)   
 [Android性能优化典范 - 第3季](http://hukai.me/android-performance-patterns-season-3/)  

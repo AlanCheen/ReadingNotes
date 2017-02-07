@@ -1,8 +1,9 @@
 # 第4章 ListView使用技巧
 
-> 使用RV替代ListView吧
 
-1. ViewHolder模式
+注：使用RecyclerView替代ListView吧！
+
+1. ViewHolder模式 复用 Item
 2. `android:divider`设置分割线
 3. `android:scrollbars="none"`隐藏滚动条
 4. `android:listSelector="#0000000"` 可以设置item选中状态
