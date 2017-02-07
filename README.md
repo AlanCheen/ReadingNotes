@@ -30,8 +30,12 @@
 |深入理解Java虚拟机||||
 |[Java并发编程的艺术](./TheArtOfJavaConcurrencyProgramming)||||
 |[图解Http](./图解Http)|阅读完毕，在做笔记|8.5|用图片把抽象的知识生动化，非常棒，对初学者非常友好，推荐！|新老手皆宜|2016年12月08日|
-|深入理解Android||||
+|深入理解Android卷一||||
 |CleanCode||||
+|高性能Android应用开发|||性能优化必备良书|
+|深入理解Android内核设计思想|ing||可能是讲 binder 讲得最好的书了|
+
+
 
 
 欢迎推荐优秀书籍！
