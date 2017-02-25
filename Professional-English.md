@@ -3,6 +3,30 @@
 	记录遇到的专业英语词汇
 
 
+
+
+赋值  assignment
+
+字面量 literal 
+
+用户定义对象（user-defined object）
+內建对象(native objcet)
+宿主对象（host object）
+
+条件语句（conditional statument）
+
+算术操作（arithmetic opertation）
+拼接（concatenation）
+类型声明（typing)
+强类型(strongly typed)
+弱类型(weakly typed)
+转义(escaping)
+填充(populating)
+标量(scalar)
+数组（array）
+
+
+
 ## 计算机网络
 
 |                 全称                  |   缩写   |      中文名称      |    作用     | 备注                              |

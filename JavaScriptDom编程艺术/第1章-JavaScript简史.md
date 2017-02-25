@@ -2,7 +2,7 @@
 
 > Write once,run anywhere.
 
-JavaScript是一门脚本语言，需要 Web浏览器进行解释和执行。
+JavaScript是一门脚本语言，是解释型语言，需要 Web浏览器进行解释和执行。
 
 JavaScript 是 Netscapte 公司与 Sun 公司合作开发的。
 
