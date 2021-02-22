@@ -3,6 +3,9 @@
 [![Join the chat at https://gitter.im/AlanCheen/ReadingNotes](https://badges.gitter.im/AlanCheen/ReadingNotes.svg)](https://gitter.im/AlanCheen/ReadingNotes?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
+注意：内容合并到: --->> https://github.com/AlanCheen/FullStackNotes <<----
+
+
 > 万般皆下品惟有读书高
 
 阅读书籍对系统的学习技术非常有帮助（前提是优秀的书籍）。  
@@ -39,15 +42,24 @@
 |               移动App性能评测与优化               |  入手   |           |                               |                    |             |
 |                程序是怎样跑起来的                 |  入手   |           |                               |                    |             |
 |                   算法图解                   |  入手   |           |                               |                    |             |
-|                                          |       |           |                               |                    |             |
+|             Thinking In Java             |  翻阅   |           |                               |                    |             |
 |             Android软件安全与逆向分析             |  待入手  |           |                               |                    |             |
 
 
 
 
 
-
 [数据结构与算法分析](https://book.douban.com/subject/3351237/)
+
+
+
+## 小说
+
+
+
+
+
+
 
 ## 我的其他开源项目
 
